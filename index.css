@@ -1,5 +1,5 @@
 .accueil {
-    height:100vh;
+    min-height:100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,11 +8,6 @@
     text-align: center;
     justify-content: center;
     color:blue;
-}
-.logo {
-    
-    font-size: 10em;
-    font-style: oblique;
 }
 .NomPrenom {
     font-size: xx-large;
@@ -28,7 +23,7 @@
 .presentation {
     display: flex;
     flex-wrap: wrap;
-       height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(  rgba(252, 4, 4, 0.8), 
     rgba(3, 220, 248, 0.8)),url(assets/background.jpg)no-repeat;background-size:cover;
 }
@@ -41,6 +36,7 @@
     text-decoration: none;
 }
 .nav-list {
+    width: 100%;
     padding: 1rem 0;
     display: flex;
     justify-content: flex-end;
@@ -67,14 +63,14 @@
     width: 70%;
 }
 .diplomes {
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(  rgba(3, 220, 248, 0.8), 
     rgba(252, 4, 4, 0.8)),url(assets/background.jpg)no-repeat;background-size:cover;
     
 }
 
 .experiencesPro {
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(  rgba(252, 4, 4, 0.8), 
     rgba(3, 220, 248, 0.8)),url(assets/background.jpg)no-repeat;background-size:cover;
 
@@ -165,17 +161,97 @@
 .competences {
 
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(  rgba(3, 220, 248, 0.8), 
     rgba(252, 4, 4, 0.8)),url(assets/background.jpg)no-repeat;background-size:cover;
 }
+.competEtOuts {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.compet {
+  min-height: 100vh;
+  text-align: center;
+  width: 50%;
+  line-height: 9em;
+}
+label {
+  padding-right: 30px;
+  font-size: 1.5rem;
+}
+.outs {
+  width: 50%;
+  min-height: 100vh;
+  text-align: center;
+  line-height: 9em;
+  font-size: large;
+}
 .hobby {
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(  rgba(252, 4, 4, 0.8), 
     rgba(3, 220, 248, 0.8)),url(assets/background.jpg)no-repeat;background-size:cover;
 }
+.passeTemps {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.jv {
+  display: flex;
+  width: 100%;
+}
+.photoJv {
+  width: 50%;
+}
+.textJv {
+  width: 50%;
+}
+.zic {
+  display: flex;
+  width: 100%;
+}
+.photoZic {
+  width: 50%;
+ 
+}
+.textZic {
+  width: 50%;
+  
+}
+.comics {
+  display: flex;
+  width: 100%;
+}
+.photoComics {
+  width: 50%;
+}
+.textComics {
+  width: 50%;
+}
+.sport {
+  display: flex;
+  width: 100%;
+}
+.photoSport {
+  width: 50%;
+}
+.textSport {
+  width: 50%;
+}
+.cinema {
+  display: flex;
+  width: 100%;
+}
+.photoCinema {
+  width: 50%;
+}
+.textCinema {
+  width: 50%;
+
+}
 .contact {
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(  rgba(3, 220, 248, 0.8), 
     rgba(252, 4, 4, 0.8)),url(assets/background.jpg)no-repeat;background-size:cover;
 }
