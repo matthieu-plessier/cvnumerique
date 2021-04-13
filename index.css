@@ -9,6 +9,10 @@
     justify-content: center;
     color:blue;
 }
+.logo {
+  font-style: italic;
+  font-size: 10em;
+}
 .NomPrenom {
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
@@ -17,8 +21,7 @@
 .titrePage {
     width: 100%;
     text-align: center;
-
-    
+   
 }
 .presentation {
     display: flex;
@@ -176,6 +179,8 @@
   width: 50%;
   line-height: 9em;
 }
+
+
 label {
   padding-right: 30px;
   font-size: 1.5rem;
